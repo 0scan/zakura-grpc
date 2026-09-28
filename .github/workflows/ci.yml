@@ -19,7 +19,7 @@ jobs:
       - name: Check out Zakura sibling dependency
         uses: actions/checkout@v4
         with:
-          repository: ZakuraModule/zakura
+          repository: 0scan/zakura
           ref: feat/geyser-plugin-framework
           path: zakura
       - name: Install Rust toolchain
